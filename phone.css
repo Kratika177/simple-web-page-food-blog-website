@@ -1,0 +1,72 @@
+header{
+    width:100% ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-shrink: inherit;
+}
+header a{
+    
+    flex-wrap:wrap ;
+    flex-shrink: inherit;
+}
+#services{
+    margin-top:428px ;
+}
+.our-services{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+.con{
+    flex-direction: column;
+}
+#sponsers{
+    height: fit-content;
+    box-sizing: border-box;
+    
+}
+#sponsers img{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+#home{
+    width: fit-content;
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+#home h2.p{
+    justify-content: center;
+    align-items:center;
+}
+#contact{
+    position: relative;
+    top: 200px;
+}
+iframe{
+    justify-content: center;
+}
+.con div{
+    margin-bottom: 10px;
+}
+.con{
+    justify-self: center;
+   
+    align-items: center;
+}
+footer{
+    position: relative;
+    top:200px;
+}
