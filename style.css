@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.navbar img{
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.navbar ul{
+    display:flex;
+
+}
+.navbar li{
+    margin:20px ; 
+    list-style: none;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar::before{
+    content:"";
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-image: url("images/bg1.jpg");
+    position: absolute;
+    top: 0px;
+    opacity:0.7;
+    z-index: -1;
+}
+#home{
+    
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+    color: rgb(255, 249, 249);
+    font: 1.3rem;
+    font-weight: bolder;
+    width: 50%;
+}
+
+#services{
+    color: white;
+    text-align: center;
+
+}
+#services h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.our-services{
+    display:flex ;
+    justify-content: center;
+}
+.types{
+    margin: 30px;
+    
+
+}
+.types img{
+    border-radius: 30px;
+    border: 1px solid rgb(165, 77, 45);
+    transition: all;
+    transition-duration: 2s;
+}
+.types img:hover{
+    width: 330px;
+    height: 330px;
+}
+.types figcaption{
+    background-color: rgb(165, 77, 45);
+    padding: 10px;
+    border-radius: 10px;
+}
+.types figcaption a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.types figcaption:hover{
+    background-color: orangered;
+}
+#sponsers{
+    text-align: center;
+    color: rgb(165, 77, 45);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-image: url("images/bg2.jfif");
+    position: absolute;
+    
+    
+}
+#sponsers h2{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.sponser{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sponser a{
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.sponser img{
+    border-radius: 30px;
+    border: 1px solid rgb(165, 77, 45);
+    transition: all;
+    transition-duration: 2s;
+}
+.sponser img:hover{
+    transform: rotate(360deg);
+}
+#contact{
+    margin-top: 650px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(165, 77, 45);
+}
+#contact form input,textarea,button{
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(245, 223, 215);
+    border: 1px solid rgb(165, 77, 45);
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 1s;
+}
+#contact form input:hover,textarea:hover{
+   
+    border: 2px solid rgb(165, 77, 45);
+    
+}
+.con{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#contact h2{
+    font-size: 2rem;
+}
+form{
+    border:2px solid rgb(165, 77, 45);
+    border-radius: 10px;
+    background-color: rgb(245, 223, 215);
+    padding: 21.9px;
+    margin-right: 70px;
+}
+form button{
+    width: 90%;
+    margin-top: 20px;
+    font-family: cursive;
+    background-color: rgb(165, 77, 45);
+    color: white;
+    border: 0px solid;
+    padding: 8px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(165, 77, 45);
+    color: white;
+}
+footer .icons img{
+    margin-top: 20px;
+    border-radius: 30px;
+}
